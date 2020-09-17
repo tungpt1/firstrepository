@@ -1,1 +1,28 @@
-test 
+create ssh for git
+https://phoenixnap.com/kb/generate-ssh-key-windows-10
+
+https://docs.github.com/en/github/authenticating-to-github/error-permission-denied-publickey
+
+
+
+1. ssh-keygen
+
+2. upload this key to github
+
+3. using command
+git config --global user.name "tungpt1"
+git config --global user.email "tungpt1@gmail.com"
+
+git init
+git add *
+git add filename
+git commit -m "add file filename"
+
+-connect to server from local
+git remote add origin git@github.com:tungpt1/firstrepository.git
+
+git push origin master
+
+--clone from server 
+git clone git@github.com:tungpt1/firstrepository.git
+
